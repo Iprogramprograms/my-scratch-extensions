@@ -9,11 +9,20 @@ class Boolean {
           blockType: Scratch.BlockType.BOOLEAN,
           text: 'True'
         },
-        '---',
         {
           opcode: 'falsee',
           blockType: Scratch.BlockType.BOOLEAN,
           text: 'False'
+        },
+        {
+          opcode: 'whenconditionistrue',
+          blockType: Scratch.BlockType.HAT,
+          text: 'When [CONDITION] is true',
+          arguments: {
+            CONDITION: {
+              type: Scratch.ArgumentType.BOOLEAN
+            }
+          }
         }
       ]
     };
@@ -24,6 +33,9 @@ class Boolean {
   }
   falsee() {
     return false;
+  }
+  whenconditionistrue(args) {
+    return args.CONDITION
   }
 }
 
