@@ -1,7 +1,7 @@
 class Boolean {
   getInfo() {
     return {
-      id: 'logic_extension',
+      id: 'boolean',
       name: 'Logic Extension',
       blocks: [
         {
