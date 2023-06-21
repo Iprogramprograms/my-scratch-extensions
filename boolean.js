@@ -5,12 +5,12 @@ class Boolean {
       name: 'Logic Extension',
       blocks: [
         {
-          opcode: 'logic_true',
+          opcode: 'truee',
           blockType: Scratch.BlockType.BOOLEAN,
           text: 'True'
         },
         {
-          opcode: 'logic_false',
+          opcode: 'falsee',
           blockType: Scratch.BlockType.BOOLEAN,
           text: 'False'
         }
@@ -18,10 +18,10 @@ class Boolean {
     };
   }
 
-  logic_true() {
+  truee() {
     return true;
   }
-  logic_false() {
+  falsee() {
     return false;
   }
 }
