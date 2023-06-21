@@ -26,4 +26,4 @@ class Boolean {
   }
 }
 
-Scratch.extensions.register(new HelloWorld());
+Scratch.extensions.register(new Boolean());
