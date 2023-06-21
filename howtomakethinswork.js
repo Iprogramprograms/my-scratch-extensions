@@ -9,6 +9,7 @@ class Boolean {
           blockType: Scratch.BlockType.BOOLEAN,
           text: 'True'
         },
+        '---',
         {
           opcode: 'falsee',
           blockType: Scratch.BlockType.BOOLEAN,
